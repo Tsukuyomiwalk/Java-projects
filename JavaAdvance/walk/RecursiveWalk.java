@@ -7,7 +7,9 @@ import java.nio.file.Path;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Objects;
-
+/**
+ * @author created by Daniil Latanov
+ */
 public class RecursiveWalk {
 
     private static final String ZEROES = "0".repeat(64) + " ";
