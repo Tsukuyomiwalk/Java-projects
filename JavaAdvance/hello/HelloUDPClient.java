@@ -8,7 +8,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-
+/**
+ * @author created by Daniil Latanov
+ */
 public class HelloUDPClient implements HelloClient {
     public static String hostName;
     public static int port;
