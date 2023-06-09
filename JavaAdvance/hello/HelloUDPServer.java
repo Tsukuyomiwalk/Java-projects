@@ -9,7 +9,9 @@ import java.net.SocketException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.nio.charset.StandardCharsets;
-
+/**
+ * @author created by Daniil Latanov
+ */
 public class HelloUDPServer implements HelloServer {
 
     static class UdpSenderReceiver {
