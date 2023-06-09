@@ -3,9 +3,7 @@ package info.kgeorgiy.ja.latanov.i18n;
 import java.io.*;
 import java.text.*;
 import java.util.*;
-/**
- * @author created by Daniil Latanov
- */
+
 import static info.kgeorgiy.ja.latanov.i18n.Out.out;
 
 public class TextStatistics {
