@@ -7,7 +7,9 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-
+/**
+ * @author created by Daniil Latanov
+ */
 public class IterativeParallelism implements ScalarIP {
 
     private final ParallelMapper mapper;
