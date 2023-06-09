@@ -10,6 +10,9 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import static java.util.stream.Collectors.toList;
+/**
+ * @author created by Daniil Latanov
+ */
 
 public class StudentDB implements StudentQuery {
 
