@@ -6,7 +6,9 @@ import info.kgeorgiy.java.advanced.crawler.*;
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.*;
-
+/**
+ * @author created by Daniil Latanov
+ */
 public class WebCrawler implements Crawler {
 
     private final Downloader downloader;
