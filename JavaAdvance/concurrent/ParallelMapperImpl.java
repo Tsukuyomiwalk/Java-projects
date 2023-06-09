@@ -5,7 +5,9 @@ import info.kgeorgiy.java.advanced.mapper.ParallelMapper;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.IntStream;
-
+/**
+ * @author created by Daniil Latanov
+ */
 public class ParallelMapperImpl implements ParallelMapper {
 
     private final Queue<Runnable> tasks = new LinkedList<>();
