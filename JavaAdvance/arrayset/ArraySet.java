@@ -3,6 +3,9 @@ package info.kgeorgiy.ja.latanov.arrayset;
 import java.util.*;
 
 import static java.util.Collections.binarySearch;
+/**
+ * @author created by Daniil Latanov
+ */
 
 public class ArraySet<T> extends AbstractSet<T> implements SortedSet<T> {
     private final List<T> collection;
